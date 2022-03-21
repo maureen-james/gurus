@@ -9,5 +9,28 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 70vh;
+}
+
+/* contact styling */
+.get{
+    width: 30%;
+    height: 95vh;
+    background-color: white;
+    margin-left: 60%;
+    margin-top: 2%;
+    border: 1px solid white;
+    border-radius: 15px;
+    /* opacity: 0.5; */
+}
+
+.contact{
+    width: 30%;
+    height: 95vh;
+    background-color: #353f48;
+    margin-left: 20%;
+    margin-top: -50%;
+    border: 1px solid rgb(20, 20, 20);
+    border-radius: 15px;
+    opacity: 0.5;
 }
