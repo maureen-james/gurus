@@ -21,9 +21,18 @@ p{
 
 
 }
+.image1{
+    background-image: url(./images/online.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 75vh;
+}
 .items{
     display: flex;
     padding-top: 50px;
     padding-bottom: 50px;
 
+}
+.btn{
+    margin-top: 250px;
 }
