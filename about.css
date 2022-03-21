@@ -4,3 +4,9 @@
 h1{
     text-align: center;
 }
+p{
+    text-align: center;
+}
+#about{
+    background-image: url(../gurus/images/images.jpeg);
+}
