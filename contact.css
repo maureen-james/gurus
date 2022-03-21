@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -33,4 +34,22 @@ body{
     border: 1px solid rgb(20, 20, 20);
     border-radius: 15px;
     opacity: 0.5;
+}
+
+.get h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    color: #353f48;
+}
+
+#form{
+    margin-left: 10%;
+    width: 60%;
+    color: #060707;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.btn{
+    margin-left: 50%;
 }
