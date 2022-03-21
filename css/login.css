@@ -92,3 +92,10 @@ body{
         border-radius:20px;
 
     }
+.link{
+    font-size:20px;
+    text-align:center;
+    user-select: none;
+    color:var(--primary-color);
+
+    }
