@@ -16,7 +16,7 @@ body{
 /* contact styling */
 .get{
     width: 30%;
-    height: 95vh;
+    height: 90vh;
     background-color: white;
     margin-left: 60%;
     margin-top: 2%;
@@ -27,10 +27,10 @@ body{
 
 .contact{
     width: 30%;
-    height: 95vh;
+    height: 90vh;
     background-color: #353f48;
     margin-left: 20%;
-    margin-top: -50%;
+    margin-top: -48%;
     border: 1px solid rgb(20, 20, 20);
     border-radius: 15px;
     opacity: 0.5;
