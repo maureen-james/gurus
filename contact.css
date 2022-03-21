@@ -53,3 +53,25 @@ body{
 .btn{
     margin-left: 50%;
 }
+
+/* contact us styling */
+.contact h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    color: #B3B3FF;
+    font-weight: bold;
+}
+
+/* contacts */
+#contacts{
+    margin: 10%;
+    margin-top: 10%;
+}
+
+/* paragraph styling */
+#contacts p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    color: #98BDE6;
+    font-weight: bold;
+}
