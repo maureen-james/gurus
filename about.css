@@ -4,9 +4,24 @@
 h1{
     text-align: center;
 }
+.left{
+    width: 35%;
+    
+}
 p{
+    padding-top: 50px;
     text-align: center;
+    padding-left: 100px;
 }
 #about{
-    background-image: url(../gurus/images/images.jpeg);
+    /* background-image: url(./images/images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    height: 75vh;
+
+
+}
+.items{
+    display: flex;
+
 }
