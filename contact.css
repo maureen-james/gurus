@@ -75,3 +75,16 @@ body{
     color: #98BDE6;
     font-weight: bold;
 }
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:178px;
+    width:271px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:178px;
+    width:271px;
+}
