@@ -6,16 +6,24 @@
 .slideshow{
     background-color: rgb(201, 194, 194);
 }
-.ourproducts{
+.ourproducts1{
  border: 1px solid rgb(212, 20, 126);
  display: flex;
  justify-content: space-between;
  align-items: center;
+ padding-top: 40px;
+}
+.ourproducts2{
+ border: 1px solid rgb(212, 20, 126);
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+  padding-top: 30px;
 }
 .product1{
  border: 1px solid rgb(128, 0, 28);
  text-align: center;
-  background-color: rgb(212, 211, 211);
+ background-color: rgb(212, 211, 211);
 }
 .product2{
  border: 1px solid rgb(207, 204, 24);
@@ -34,7 +42,6 @@
 .product4{
  border: 1px solid rgb(162, 50, 214);
   text-align: center;
- margin-left: 20px;
   background-color: rgb(212, 211, 211);
 
 }
