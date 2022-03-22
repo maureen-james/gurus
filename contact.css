@@ -22,6 +22,7 @@ body{
     margin-top: 2%;
     border: 1px solid white;
     border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     /* opacity: 0.5; */
 }
 
@@ -33,7 +34,8 @@ body{
     margin-top: -48%;
     border: 1px solid rgb(20, 20, 20);
     border-radius: 15px;
-    opacity: 0.5;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    opacity: 0.8;
 }
 
 .get h1{
@@ -52,13 +54,14 @@ body{
 
 .btn{
     margin-left: 50%;
+    background-color: #2f8756;
 }
 
 /* contact us styling */
 .contact h1{
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
-    color: #B3B3FF;
+    color: #2f8756;
     font-weight: bold;
 }
 
@@ -75,7 +78,7 @@ body{
     color: #98BDE6;
     font-weight: bold;
 }
-
+/* map */
 .mapouter{
     position:relative;
     text-align:right;
