@@ -22,7 +22,7 @@ p1{
     height: 75vh;
 }
 .image1{
-    background-image: url(./images/online.jpg);
+    background-image: url(./about-images/online.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
     height: 75vh;
@@ -34,6 +34,10 @@ p1{
 
 }
 .btn{
+    margin-left:20px;
+    background: black;
+  }
+.btn1{
     font-family: 'Merienda', cursive;
     margin-top: 250px;
     border: 1px solid yellow;
