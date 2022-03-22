@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +11,25 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 70vh;
+    height: 80vh;
+}
+
+/* nav bar */
+.nav-list{
+  display: flex;
+  text-align: center;
+}
+.log{
+  display: flex;
+}
+h4{
+    font-style: italic;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+.btn{
+  margin-left:20px;
+  background: black;
 }
 
 /* contact styling */

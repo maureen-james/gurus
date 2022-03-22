@@ -5,6 +5,11 @@
 .log{
     display: flex;
 }
+h4{
+    font-style: italic;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
 .image{
     width: 100px;
 }
