@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link rel="stylesheet" href="https://fonts.google.com/">
+    <!-- css link -->
+    <link rel="stylesheet" href="contact.css">
+    <title> Contact Us Page </title>
+</head>
+<body>
+    <!-- container starts here ... -->
+    <div class="container-fluid">
+        <!-- id contact starts here... -->
+        <div id="contact">
+            <!-- class for get starts here... -->
+        <div class="get">
+            <h1> Get in touch </h1>
+            <form action="https://formspree.io/f/mknyzarg" method="post" id="form">
+                <!-- name -->
+                <div class="mb-3">
+                    <label for="name" class="form-label"> Name: </label>
+                    <input type="text" class="form-control" id="name" placeholder="your name">
+                </div>
+                <!-- email -->
+                <div class="mb-3">
+                    <label for="email" class="form-label"> Email: </label>
+                    <input type="email" class="form-control" id="email" placeholder="your email">
+                </div>
+                <!-- password -->
+                <div class="mb-3">
+                    <label for="password" class="form-label"> Password: </label>
+                    <input type="password" class="form-control" id="password">
+                </div>
+                <!-- message -->
+                    <div class="mb-3">
+                    <label for="message" class="form-label"> Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="your message"></textarea>
+                    </div>
+                <!-- button -->
+                <input type="submit" onclick="send()" id="submit">
+                </form>
+        <!-- class for get ends here... -->
+        </div>
+        <!-- contact us section starts here-->
+        <div class="contact">
+            <h1> Contact Us </h1>
+            <div id="contacts">
+                <!-- email us -->
+            <div class="email">
+            <img src="images/email.png" alt="">
+            <p> laptopgurus@gmail.com </p>
+            </div>
+            <!-- our address -->
+            <div class="address">
+            <img src="images/address.png" alt="">
+            <p> Address: Nairobi,Kenya,WestLands </p>
+            </div>
+            <!-- phone number -->
+            <div class="tel">
+            <img src="images/phone.png" alt="">
+            <p> Tel: +247 22 156 123 </p>
+            </div>
+            <!-- our website -->
+            <div class="website">
+                <img src="images/site.png" alt="">
+                <p> Website </p>
+            </div>
+                <!-- map -->
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe width="271" height="178" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <a href="https://www.whatismyip-address.com/divi-discount/"></a>
+                        <br>
+                        <a href="https://www.embedgooglemap.net"></a>
+                </div>
+            </div>
+        </div>
+        <!-- contact section ends here... -->
+    </div>
+    <!-- id for contact ends here... -->
+    </div>
+    <!-- container div ends here ...-->
+    </div>
+
+<script src="contact.js"></script>
+</body>
+</html>
