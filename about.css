@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+.nav-list{
+    display: flex;
+}
+.log{
+    display: flex;
+}
+.image{
+    width: 100px;
+}
+h1{
+    text-align: center;
+}
+.left{
+    width: 35%;
+}
+p1{
+    text-align: center;
+    padding-left: 100px;
+}
+#about{
+    height: 75vh;
+}
+.image1{
+    background-image: url(./about-images/online.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 75vh;
+}
+.items{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.btn{
+    margin-left:20px;
+    background: black;
+  }
+.btn1{
+    font-family: 'Merienda', cursive;
+    margin-top: 250px;
+    border: 1px solid yellow;
+    border-radius: 40%;
+    height: 100px;
+}
+.center {
+    background: #FF7A59;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .mission{
+      display: flex;
+      justify-content: space-between;
+  }
+  .about-laptop{
+      font-family: 'Merienda', cursive;
+      padding-left: 50px;
+      text-align: center;
+  }
