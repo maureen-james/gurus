@@ -1,9 +1,7 @@
-# gurus
- 
-
 ##### By Catherine,David,Maureen,Teresiah
 ### This is an  E-commerce website that provides an easy way to sell products to a large customer base.
-
+![Screenshot from 2022-03-23 02-51-33](https://user-images.githubusercontent.com/97945410/159595773-5d787f6c-80ae-479a-92b4-debfc945d666.png)
+# gurus
 ## Table of Content
 
 + [Description](#description)
