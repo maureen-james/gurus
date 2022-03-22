@@ -2,6 +2,9 @@
 .nav-list{
     display: flex;
 }
+.log{
+    display: flex;
+}
 .image{
     width: 100px;
 }
