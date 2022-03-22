@@ -13,19 +13,13 @@ h1{
 }
 .left{
     width: 35%;
-    
 }
 p1{
     text-align: center;
     padding-left: 100px;
 }
 #about{
-    /* background-image: url(./images/images.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover; */
     height: 75vh;
-
-
 }
 .image1{
     background-image: url(./images/online.jpg);
