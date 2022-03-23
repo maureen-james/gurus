@@ -36,15 +36,14 @@ p1{
     height: 75vh;
 }
 .image1{
-    background-image: url(./about-images/online.jpg);
+    background-image: url(./about-images/cart.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
-    height: 75vh;
     text-align: center;
 }
 .items{
     display: flex;
-    padding-top: 50px;
+    padding-top: 150px;
     padding-bottom: 50px;
 
 }
@@ -60,11 +59,11 @@ p1{
     height: 100px; */
 }
 .order{
-    border: 5px solid yellow;
-    background-color: green;
-    border-radius: 40%;
+    background-color: #2f8756;
+    border: 5px solid #2f8756;
+    border-radius: 10px;
     font-size: 25px;
-    margin: 200px;
+    margin: 250px;
 }
 .center {
     background: #FF7A59;

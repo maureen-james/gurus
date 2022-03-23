@@ -148,6 +148,7 @@ h1.zero:before{
   .row{
     display: flex;
     padding-bottom: 200px ;
+    margin-top: 50px;
   }
   .card{
     height: 75vh;

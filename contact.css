@@ -15,7 +15,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 150vh;
+    height: 120vh;
 }
 
 /* nav bar */
@@ -77,6 +77,8 @@ h4{
 #submit{
     margin-left: 50%;
     background-color: #2f8756;
+    border: 5px solid #2f8756;
+    border-radius: 10px;
 }
 
 /* contact us styling */
