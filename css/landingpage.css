@@ -86,7 +86,7 @@ h1.zero:before{
     position: relative;
   }
   img{
-    width: 300px;
+    width: 230px;
     height: 186px;
   }
 
@@ -151,7 +151,7 @@ h1.zero:before{
     margin-top: 50px;
   }
   .card{
-    height: 75vh;
+    /* height: 75vh; */
   }
 
   @keyframes first{
