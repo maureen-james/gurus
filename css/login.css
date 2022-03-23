@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 *{
-    font-family: 'Rajdhani', sans-serif;
-    margin:0;
-    padding:0;
-    box-sizing:border-box ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merienda', cursive;
 }
 :root{
     --bg-color:#000;

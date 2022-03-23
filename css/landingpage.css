@@ -1,8 +1,13 @@
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Merienda', cursive;
+}
+.nav-item{
+  padding-left: 50px;
 }
 .nav-list{
   display: flex;
@@ -89,7 +94,7 @@ h1.zero:before{
     margin: 5px;
   }
   h6{
-      width: 50px;
+      width: 70px;
       padding: 5px;
       margin: 10px;
       font-size: 15px;
@@ -140,6 +145,14 @@ h1.zero:before{
     display: block;
 
   }
+  .row{
+    display: flex;
+    padding-bottom: 200px ;
+  }
+  .card{
+    height: 75vh;
+  }
+
   @keyframes first{
     to{
       width: 30px;
@@ -219,6 +232,9 @@ h1.zero:before{
   }
   .select div span{
     display: none;
+  }
+  .fab{
+    padding-right: 25px;
   }
 
 

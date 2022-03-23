@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- font awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
     <!-- google fonts -->
     <link rel="stylesheet" href="https://fonts.google.com/">
@@ -60,34 +61,8 @@
         <!-- id contact starts here... -->
         <div id="contact">
             <!-- class for get starts here... -->
-        <div class="get">
-            <h1> Get in touch </h1>
-            <form action="https://formspree.io/f/mknyzarg" method="post" id="form">
-                <!-- name -->
-                <div class="mb-3">
-                    <label for="name" class="form-label"> Name: </label>
-                    <input type="text" class="form-control" id="name" placeholder="your name">
-                </div>
-                <!-- email -->
-                <div class="mb-3">
-                    <label for="email" class="form-label"> Email: </label>
-                    <input type="email" class="form-control" id="email" placeholder="your email">
-                </div>
-                <!-- password -->
-                <div class="mb-3">
-                    <label for="password" class="form-label"> Password: </label>
-                    <input type="password" class="form-control" id="password">
-                </div>
-                <!-- message -->
-                    <div class="mb-3">
-                    <label for="message" class="form-label"> Message: </label>
-                    <textarea name="message" id="message" cols="30" rows="5" placeholder="your message"></textarea>
-                    </div>
-                <!-- button -->
-                <input type="submit" onclick="send()" id="submit">
-                </form>
-        <!-- class for get ends here... -->
-        </div>
+         <div class="cards">
+           
         <!-- contact us section starts here-->
         <div class="contact">
             <h1> Contact Us </h1>
@@ -124,8 +99,56 @@
         </div>
         <!-- contacts section ends here... -->
     </div>
-    <!-- id for contact ends here... -->
+    <div class="get">
+        <h1> Get in touch </h1>
+        <form action="https://formspree.io/f/mknyzarg" method="post" id="form">
+            <!-- name -->
+            <div class="mb-3">
+                <label for="name" class="form-label"> Name: </label>
+                <input type="text" class="form-control" id="name" placeholder="your name">
+            </div>
+            <!-- email -->
+            <div class="mb-3">
+                <label for="email" class="form-label"> Email: </label>
+                <input type="email" class="form-control" id="email" placeholder="your email">
+            </div>
+            <!-- password -->
+            <div class="mb-3">
+                <label for="password" class="form-label"> Password: </label>
+                <input type="password" class="form-control" id="password">
+            </div>
+            <!-- message -->
+                <div class="mb-3">
+                <label for="message" class="form-label"> Message: </label>
+                <textarea name="message" id="message" cols="25" rows="5" placeholder="your message"></textarea>
+                </div>
+            <!-- button -->
+            <input type="submit" onclick="send()" id="submit">
+            </form>
+    <!-- class for get ends here... -->
     </div>
+</div>
+    <!-- id for contact ends here... -->
+    <div class="footer">
+        <footer class="bg-light text-center text-lg-start"> 
+          <!-- Copyright -->
+           <div class="text-center text-light p-3" style="background-color: #083111;">
+            © 2022 Copyright:
+            <a style="background-color: inherit;" class="text-light" href="#">GURUS</a>
+            <div class="icons">
+              <a href=""><span class="fab fa-facebook icon_facebook"></span></a>
+              <a href=""><span class="fab fa-twitter icon_twitter"></span></a>
+              <a href=""><span class="fab fa-linkedin icon_linkedin"></span></a>
+              <a href=""><span class="fab fa-instagram icon_instagram"></span></a>
+              <a href=""><span class="fab fa-snapchat icon_snapchat"></span></a>
+            </div>
+          </div> 
+          <!-- Copyright -->
+         </footer>
+      </div> 
+    
+</div>
+      <!-- footer end -->
 
 <script src="contact.js"></script>
 </body>

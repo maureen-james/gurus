@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merienda', cursive;
+}
+.nav-item{
+    padding-left: 50px;
+}
 .nav-list{
     display: flex;
 }
@@ -31,6 +40,7 @@ p1{
     background-repeat: no-repeat;
     background-size: cover; 
     height: 75vh;
+    text-align: center;
 }
 .items{
     display: flex;
@@ -43,11 +53,18 @@ p1{
     background: black;
   }
 .btn1{
-    font-family: 'Merienda', cursive;
-    margin-top: 250px;
+    /* font-family: 'Merienda', cursive;
+    padding-top: 150px;
     border: 1px solid yellow;
     border-radius: 40%;
-    height: 100px;
+    height: 100px; */
+}
+.order{
+    border: 5px solid yellow;
+    background-color: green;
+    border-radius: 40%;
+    font-size: 25px;
+    margin: 200px;
 }
 .center {
     background: #FF7A59;
@@ -66,4 +83,7 @@ p1{
       font-family: 'Merienda', cursive;
       padding-left: 50px;
       text-align: center;
+  }
+  .fab{
+    padding-right: 25px;
   }
