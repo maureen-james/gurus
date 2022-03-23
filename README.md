@@ -30,9 +30,7 @@
 
 * CSS - which was used to style the pages incuding the left aside navigation bar.
 
-* FIREBASE - Which was used to host our project.
-
-* JAVASCRIPT - which was used to make our buttons interactive.
+* JAVASCRIPT AND JQUERY - which was used to make our buttons interactive.
 
 ## Reference
 * Materialize CSS
