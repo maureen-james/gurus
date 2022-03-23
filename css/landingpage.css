@@ -147,7 +147,7 @@ h1.zero:before{
   }
   .row{
     display: flex;
-    padding-bottom: 200px ;
+    padding-bottom: 50px ;
     margin-top: 50px;
   }
   .card{
